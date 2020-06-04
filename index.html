@@ -6,7 +6,7 @@
     <meta name="author"
           content="Theo den Blanken">
     <link rel="stylesheet"
-          href="node_modules/bootstrap/dist/css/bootstrap.css">
+          href="css/main.css">
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
 </head>
@@ -74,7 +74,7 @@
 
 
 <!-- jumbotron -->
-<header class="jumbotron">
+<header class="jumbotron text-warning">
 
     <div class="container-fluid">
         <h1 class="display-4">Lord of the Rings</h1>
@@ -87,7 +87,7 @@
 
 </header>
 
-<div class="container-fluid"
+<div class="container-fluid mb-4"
      id="inleiding">
 
     <div class="row">
@@ -198,7 +198,7 @@
                     </p>
                 </div>
 
-               <div class="card-footer text-center">
+               <div class="card-footer text-right">
                    <!-- Button trigger modal -->
                    <button type="button"
                            class="btn btn-primary"
@@ -371,7 +371,7 @@
                 </div>
 
 
-                <div class="card-footer">
+                <div class="card-footer text-right">
                     <!-- Button trigger modal -->
                     <button type="button"
                             class="btn btn-primary"
@@ -515,7 +515,7 @@
                 <!-- inhoud voor modaal -->
 
 
-                <div class="card-footer">
+                <div class="card-footer text-right">
                     <!-- Button trigger modal -->
                     <button type="button"
                             class="btn btn-primary"
@@ -677,6 +677,8 @@
 <script>
 
     $('#inleiding p').matchHeight();
+    $('#verhaal .card-body').matchHeight();
+    $('#verhaal .card-body').matchHeight();
 </script>
 
 </body>
